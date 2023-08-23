@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+
+.bg-color {
+    background-color: #fff;
+    align-items: center;
+    min-height: 100vh;
+    display: flex;
+}
+
+
+.d-flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.container {
+    width: 1000px;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.col-3 {
+    width: 25%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+
+.col-6 {
+    width: 50%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+
+.col-4 {
+    width: 33.33%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+
+.font-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+}
+
+
+.font-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #7B7B7B;
+}
+
+
+.row {
+    margin-left: -12px;
+    margin-right: -12px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+.relative {
+    position: relative;
+}
+
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+
+.gap-8px {
+    gap: 8px;
+}
+
+
+.icon-box-container {
+    height: 100%;
+    top: 0px;
+    right: -60px;
+    position: absolute;
+    display: flex;
+    transition: all 0.4s;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+    align-items: center;
+}
+
+
+.card:hover .icon-box-container {
+    right: -15px;
+    transition: all .4s;
+}
+
+
+.icon-box {
+width: 40px;
+    height: 40px;
+    display: flex;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    cursor: pointer;
+    overflow: hidden;
+    background: var(--white, #fff);
+    border: 5px solid white transparent;
+    box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.10);
+}
+
+
+
+.icon-box:hover {
+    background-color: #ff5300;
+}
+
+.icon-box:hover svg path {
+    fill: #fff;
+}
